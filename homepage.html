@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Skid Alley Bike Shop</title>
+  <style>
+       body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+      display: flex;
+      flex-direction: column; /* Align logo and links vertically */
+      align-items: center; /* Center logo and links horizontally */
+    }
+    
+    h1 {
+      margin: 0;
+      display: inline-block;
+    }
+
+    .logo {
+      width: 50px; /* Adjust the width as needed */
+      height: auto; /* Maintain aspect ratio */
+      margin-bottom: 10px; /* Adjust the margin as needed */
+    }
+    
+    nav ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: flex; /* Align navigation items horizontally */
+    }
+    
+    nav ul li {
+      margin-right: 1px; /* Add space between navigation items */
+    }
+    
+    nav ul li a {
+      color: #fff;
+      text-decoration: none;
+      padding: 10px;
+    }
+    
+    main {
+      padding: 20px;
+    }
+    
+    section {
+      margin-bottom: 30px;
+    }
+    
+    h2 {
+      color: #333;
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+    
+    form {
+      margin-top: 10px;
+    }
+    
+    input[type="text"] {
+      padding: 10px;
+      width: 200px;
+    }
+    
+    input[type="submit"] {
+      padding: 10px 20px;
+      background-color: #333;
+      color: #fff;
+      border: none;
+      cursor: pointer;
+    }
+    
+    footer {
+      background-color: #333;
+      color: #fff;
+      padding: 10px;
+      text-align: center;
+    }
+    
+    .login-signup a {
+      color: #fff;
+      text-decoration: none;
+      padding: 10px;
+    }
+    
+    .login-signup {
+      margin-left: auto; /* Push login/signup to the right */
+    }
+    
+    .featured-bikes {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 20px;
+    }
+    
+    .bike-item {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+    
+    .bike-image {
+      width: 70%;
+      margin-bottom: 10px;
+    }
+    
+    .bike-title {
+      font-size: 18px;
+      font-weight: bold;
+      margin: 0;
+    }
+    
+    .bike-specs {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      font-size: 14px;
+    }
+    
+    .bike-specs li {
+      margin-bottom: 5px;
+    }
+    
+    .bike-specs strong {
+      font-weight: bold;
+    }
+    
+    
+  </style>
+</head>
+<body>
+  <header>
+    <!--<img src="logo.png" alt="Logo" class="logo"> -->
+    <h1>Skid Alley Bike Shop</h1>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Catalog</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="login-signup">
+      <a href="#">Login</a> | <a href="#">Signup</a>
+    </div>
+  </header>
+  
+  <main>
+    <section>
+      <h2>Find Your Perfect Bike</h2>
+      <form>
+        <input type="text" name="search" placeholder="Search catalog...">
+        <input type="submit" value="Search">
+      </form>
+    </section>
+    
+    <section>
+      <h2>Featured Bikes</h2>
+      <div class="featured-bikes">
+        <div class="bike-item">
+          <img src="itembike.png" alt="Bike 1" class="bike-image">
+          <h3 class="bike-title">Mountain Bike</h3>
+          <ul class="bike-specs">
+            <li><strong>Brand:</strong> XYZ</li>
+            <li><strong>Frame:</strong> Aluminum</li>
+            <li><strong>Size:</strong> Medium</li>
+            <li><strong>Color:</strong> Red</li>
+          </ul>
+        </div>
+        
+        <div class="bike-item">
+          <img src="itembike2.png" alt="Bike 2" class="bike-image">
+          <h3 class="bike-title">Road Bike</h3>
+          <ul class="bike-specs">
+            <li><strong>Brand:</strong> ABC</li>
+            <li><strong>Frame:</strong> Carbon Fiber</li>
+            <li><strong>Size:</strong> Large</li>
+            <li><strong>Color:</strong> Blue</li>
+          </ul>
+        </div>
+        
+        <div class="bike-item">
+          <img src="itembike3.jpg" alt="Bike 3" class="bike-image">
+          <h3 class="bike-title">Hybrid Bike</h3>
+          <ul class="bike-specs">
+            <li><strong>Brand:</strong> DEF</li>
+            <li><strong>Frame:</strong> Steel</li>
+            <li><strong>Size:</strong> Small</li>
+            <li><strong>Color:</strong> Black</li>
+          </ul>
+        </div>
+        
+        <div class="bike-item">
+          <img src="bike4.jpg" alt="Bike 4" class="bike-image">
+          <h3 class="bike-title">City Bike</h3>
+          <ul class="bike-specs">
+            <li><strong>Brand:</strong> GHI</li>
+            <li><strong>Frame:</strong> Aluminum</li>
+            <li><strong>Size:</strong> Medium</li>
+            <li><strong>Color:</strong> Gray</li>
+          </ul>
+        </div>
+        
+        <div class="bike-item">
+          <img src="bike5.jpg" alt="Bike 5" class="bike-image">
+          <h3 class="bike-title">BMX Bike</h3>
+          <ul class="bike-specs">
+            <li><strong>Brand:</strong> JKL</li>
+            <li><strong>Frame:</strong> Steel</li>
+            <li><strong>Size:</strong> Small</li>
+            <li><strong>Color:</strong> Yellow</li>
+          </ul>
+        </div>
+        
+        <div class="bike-item">
+          <img src="bike6.jpg" alt="Bike 6" class="bike-image">
+          <h3 class="bike-title">Folding Bike</h3>
+          <ul class="bike-specs">
+            <li><strong>Brand:</strong> MNO</li>
+            <li><strong>Frame:</strong> Aluminum</li>
+            <li><strong>Size:</strong> Large</li>
+            <li><strong>Color:</strong> Silver</li>
+          </ul>
+        </div>
+        
+        <div class="bike-item">
+          <img src="bike7.jpg" alt="Bike 7" class="bike-image">
+          <h3 class="bike-title">Electric Bike</h3>
+          <ul class="bike-specs">
+            <li><strong>Brand:</strong> PQR</li>
+            <li><strong>Frame:</strong> Carbon Fiber</li>
+            <li><strong>Size:</strong> Medium</li>
+            <li><strong>Color:</strong> Red</li>
+          </ul>
+        </div>
+        
+        <div class="bike-item">
+          <img src="bike8.jpg" alt="Bike 8" class="bike-image">
+          <h3 class="bike-title">Touring Bike</h3>
+          <ul class="bike-specs">
+            <li><strong>Brand:</strong> STU</li>
+            <li><strong>Frame:</strong> Aluminum</li>
+            <li><strong>Size:</strong> Large</li>
+            <li><strong>Color:</strong> Blue</li>
+          </ul>
+        </div>
+
+        <div class="bike-item">
+            <img src="bike8.jpg" alt="Bike 8" class="bike-image">
+            <h3 class="bike-title">Touring Bike</h3>
+            <ul class="bike-specs">
+              <li><strong>Brand:</strong> STU</li>
+              <li><strong>Frame:</strong> Aluminum</li>
+              <li><strong>Size:</strong> Large</li>
+              <li><strong>Color:</strong> Blue</li>
+            </ul>
+          </div>
+
+          <div class="bike-item">
+            <img src="bike8.jpg" alt="Bike 8" class="bike-image">
+            <h3 class="bike-title">Touring Bike</h3>
+            <ul class="bike-specs">
+              <li><strong>Brand:</strong> STU</li>
+              <li><strong>Frame:</strong> Aluminum</li>
+              <li><strong>Size:</strong> Large</li>
+              <li><strong>Color:</strong> Blue</li>
+            </ul>
+          </div>
+          
+          <div class="bike-item">
+            <img src="bike8.jpg" alt="Bike 8" class="bike-image">
+            <h3 class="bike-title">Touring Bike</h3>
+            <ul class="bike-specs">
+              <li><strong>Brand:</strong> STU</li>
+              <li><strong>Frame:</strong> Aluminum</li>
+              <li><strong>Size:</strong> Large</li>
+              <li><strong>Color:</strong> Blue</li>
+            </ul>
+          </div>
+
+          <div class="bike-item">
+            <img src="bike8.jpg" alt="Bike 8" class="bike-image">
+            <h3 class="bike-title">Touring Bike</h3>
+            <ul class="bike-specs">
+              <li><strong>Brand:</strong> STU</li>
+              <li><strong>Frame:</strong> Aluminum</li>
+              <li><strong>Size:</strong> Large</li>
+              <li><strong>Color:</strong> Blue</li>
+            </ul>
+          </div>
+
+          
+
+        <!-- Add more bike items here -->
+        
+      </div>
+    </section>
+  </main>
+  
+  <footer>
+    <p>&copy; 2023 Skid Alley Bike Shop. All rights reserved.</p>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,129 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    align-items: center; /* Align logo and text vertically */
+    justify-content: center; /* Center logo and text horizontally */
+  }
+  
+  h1 {
+    margin: 0;
+    display: inline-block; /* Display logo and text in a line */
+  }
+
+  .logo {
+    width: 50px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 10px; /* Adjust the margin as needed */
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  section {
+    margin-bottom: 30px;
+  }
+  
+  h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  form {
+    margin-top: 10px;
+  }
+  
+  input[type="text"] {
+    padding: 10px;
+    width: 200px;
+  }
+  
+  input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .login-signup {
+    float: right;
+  }
+  
+  .login-signup a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+  }
+  
+  .featured-bikes {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+  }
+  
+  .bike-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .bike-image {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  .bike-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .bike-specs {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 14px;
+  }
+  
+  .bike-specs li {
+    margin-bottom: 5px;
+  }
+  
+  .bike-specs strong {
+    font-weight: bold;
+  }
